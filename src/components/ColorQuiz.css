@@ -1,0 +1,34 @@
+.color-picker__app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guess__me {
+  width: 220px;
+  height: 200px;
+  margin-bottom: 0.6rem;
+}
+
+button {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+button + button {
+  margin-left: 1rem;
+}
+
+.wrong {
+  margin: 0;
+  color: red;
+  text-align: center;
+  font-size: 24px;
+}
+
+.correct {
+  margin: 0;
+  color: green;
+  text-align: center;
+  font-size: 24px;
+}

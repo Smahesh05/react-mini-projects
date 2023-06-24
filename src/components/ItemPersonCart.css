@@ -1,0 +1,19 @@
+.item-person__cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lines {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.line {
+  border: 1px solid red;
+  width: 50px;
+  text-align: center;
+  padding: 1rem;
+}

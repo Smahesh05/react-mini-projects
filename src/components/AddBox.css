@@ -1,0 +1,46 @@
+.cells {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cell {
+  border-radius: 8px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputEl {
+  width: 100%;
+  background: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+}
+
+.inputEl:focus {
+  outline: none;
+}
+
+.plus {
+  cursor: pointer;
+  height: 70px;
+  width: 10px;
+  position: relative;
+  right: -5px;
+  z-index: 1;
+}
+
+.plus:hover {
+  background-color: rgba(0, 255, 0, 0.3);
+}
